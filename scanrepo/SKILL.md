@@ -69,8 +69,8 @@ Convert the remote to the `owner/repo` form the scanner expects:
 
 | Remote format | Example | Scanner argument |
 |---|---|---|
-| SSH | `git@github.com:GetStream/Vision-Agents.git` | `github.com/GetStream/Vision-Agents` |
-| HTTPS | `https://github.com/GetStream/Vision-Agents.git` | `github.com/GetStream/Vision-Agents` |
+| SSH | `git@github.com:owner/repo.git` | `github.com/owner/repo` |
+| HTTPS | `https://github.com/owner/repo.git` | `github.com/owner/repo` |
 | Bitbucket | `git@bitbucket.org:owner/repo.git` | `bitbucket.org/owner/repo` |
 
 Rule: strip the scheme/host prefix and trailing `.git`, keep `host/owner/repo`.
